@@ -1,0 +1,16 @@
+{application, elil,
+ [
+  {description, "elil"},
+  {vsn, "1"},
+  {modules, [
+             elil,
+             elil_app,
+             elil_sup
+            ]},
+  {mod,{elil_app,[]}},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]}
+ ]}.
